@@ -334,7 +334,7 @@ $("#record").click(function() {
 					title.html(_("Hit the red record button to start recording from your browser"));
 				});
 			} else {
-				saveContainer.removeClass("hidden").addClass("in");
+				saveContainer.removeClass("hidden fade").addClass("in");
 				//focus on input
 				input.focus();
 				$("#cancel-recorder").off("click");
